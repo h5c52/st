@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Ubuntu Mono Nerd Font:pixelsize=12:antialias=true:autohint=true";
+static char *font = "Ubuntu Mono Nerd Font:pixelsize=14:antialias=true:autohint=true";
 static int borderpx = 2;
 
 /*
@@ -100,22 +100,22 @@ float alpha = 0.8;
 static const char *colorname[] = {
 	/* 8 normal colors */
 	"black",
-	"red3",
+	"red3", 
 	"green3",
 	"yellow3",
 	"blue2",
 	"magenta3",
-	"cyan3",
+	"cyan3", 
 	"gray90",
 
 	/* 8 bright colors */
 	"gray50",
-	"red",
+	"red", 
 	"green",
 	"yellow",
 	"#5c5cff",
 	"magenta",
-	"cyan",
+	"cyan", 
 	"white",
 
 	[255] = 0,
